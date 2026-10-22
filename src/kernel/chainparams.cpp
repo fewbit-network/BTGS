@@ -85,6 +85,7 @@ public:
         consensus.powLimit = uint256{"0000000fffffffffffffffffffffffffffffffffffffffffffffffffffffffff"};
         consensus.nPowTargetTimespan = 7 * 24 * 60 * 60; // one week
         consensus.nPowTargetSpacing = 10 * 60;
+        consensus.nPowLwmaActivationHeight = 17431;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.enforce_BIP94 = false;
         consensus.fPowNoRetargeting = false;
